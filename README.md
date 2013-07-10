@@ -23,3 +23,10 @@ Written (ATM) in BASH, this code does a few simple things:
   * PovRay File for rendering (*.pov) to PNG (*.png)
   * Executes the render of the PNG
   * World file (*.pgw) to reference the PNG into your coordinate system.
+
+**Usage**
+
+tree-interpolator.sh input.las output-name width-height pixel-size
+
+e.g.
+./tree-interpolator.sh input.las Licking 5000 10 
