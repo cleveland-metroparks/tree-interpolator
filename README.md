@@ -24,12 +24,15 @@ Written (ATM) in BASH, this code does a few simple things:
   * Executes the render of the PNG
   * World file (*.pgw) to reference the PNG into your coordinate system.
 
-**Usage**
+Also requires that tree.inc and treepov.inc are included in your path.
 
+tree.inc is a triangular mesh of a tree generated using Pov-Tree, now defunct but available at the illustrious Internet Archive: http://web.archive.org/web/*/http://propro.ru/go/Wshop/povtree/povtree.html (in case you want a different tree shape).
+treepov.inc is the additional code needed create the renderable povray document
+
+**Usage**
 ```BASH
 tree-interpolator.sh input.las output-name width-height pixel-size
 ```
-
 e.g.
 ```BASH
 ./tree-interpolator.sh input.las Licking 5000 10 
