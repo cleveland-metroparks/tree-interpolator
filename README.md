@@ -26,7 +26,11 @@ Written (ATM) in BASH, this code does a few simple things:
 
 **Usage**
 
+```BASH
 tree-interpolator.sh input.las output-name width-height pixel-size
+```
 
 e.g.
+```BASH
 ./tree-interpolator.sh input.las Licking 5000 10 
+```
