@@ -30,10 +30,10 @@ tree.inc is a triangular mesh of a tree generated using Pov-Tree, now defunct bu
 treepov.inc is the additional code needed create the renderable povray document
 
 **Usage**
-```BASH
+```SHELL
 tree-interpolator.sh input.las output-name width-height pixel-size
 ```
 e.g.
-```BASH
+```SHELL
 ./tree-interpolator.sh input.las Licking 5000 10 
 ```
