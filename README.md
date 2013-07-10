@@ -7,7 +7,7 @@ This is a project which puts verisimilitude at or above the level of veracity, i
 
 This output is accomplished by using (effectively) a 3D tree "stamp" which is placed at each and every LiDAR point, and scaled to the height above groun of that point.  See https://smathermather.wordpress.com/tag/lidar/ for more info.
 
-Requirements:
+**Requirements:**
 
 Linux Machine Running Wine
 rapidlasso's LASTools: http://rapidlasso.com/lastools/
@@ -20,4 +20,6 @@ Written (ATM) in BASH, this code does a few simple things:
 1. Uses las2las to remove class 1 and 2 in the LiDAR data, leaving class 5 (tall vegetation)
 2. Converts the las to text and creates:
   * File of coordinates of XY laspoints, as a PovRay array and an array of point heights from ground.  XY array is used to place tree "stamp", point height array used to scale stamp size in XYZ dimensions
-  * PovRay File for rendering (*.pov) that 
+  * PovRay File for rendering (*.pov) to PNG (*.png)
+  * Executes the render of the PNG
+  * World file (*.pgw) to reference the PNG into your coordinate system.
