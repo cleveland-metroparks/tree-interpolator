@@ -15,6 +15,8 @@ This output is accomplished by using (effectively) a 3D tree "stamp" which is pl
 * Bourne Again Shell (BASH)
 (PovRay, LASTools, tree.inc, and treepov.inc are included in your path)
 
+**Functionality**
+
 Written (ATM) in BASH, this code does a few simple things:
 * Uses lasheight to calculate the height of all points above ground
 * Uses las2las to remove class 1 and 2 in the LiDAR data, leaving class 5 (tall vegetation)
@@ -36,3 +38,7 @@ e.g.
 ```SHELL
 ./tree-interpolator.sh input.las Licking 5000 10 
 ```
+
+**Outputs**
+
+The primary outputs from this script are, as mentioned in functionality, are a PNG and a world file that georeferences that PNG.  The data are scaled between 0 and 63575, and the code assumes the tallest trees are 175 feet tall.  While this is a reasonable assumption for Ohio, it may not be reasonable for e.g. California.
