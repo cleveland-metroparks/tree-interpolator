@@ -13,7 +13,7 @@ This output is accomplished by using (effectively) a 3D tree "stamp" which is pl
 * rapidlasso's LASTools: http://rapidlasso.com/lastools/
 * PovRay 3.6 or later: http://povray.org/
 * Bourne Again Shell (BASH)
-(PovRay, LASTools, tree.inc, and treepov.inc are included in your path)
+(make sure PovRay, LASTools, tree.inc, and treepov.inc are included in your path)
 
 **Functionality**
 
