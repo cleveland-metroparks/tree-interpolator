@@ -25,7 +25,6 @@ Written (ATM) in BASH, this code does a few simple things:
   * World file (*.pgw) to reference the PNG into your coordinate system.
 
 
-
 tree.inc is a triangular mesh of a tree generated using Pov-Tree, now defunct but available at the illustrious Internet Archive: http://web.archive.org/web/*/http://propro.ru/go/Wshop/povtree/povtree.html (in case you want a different tree shape).
 treepov.inc is the additional code needed create the renderable povray document
 
