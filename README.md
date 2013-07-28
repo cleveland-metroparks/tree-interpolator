@@ -3,7 +3,11 @@ tree-interpolator
 
 A PovRay-powered tree interpolator for creating forest digital surface models from LiDAR point clouds.
 
-This is a project which puts verisimilitude at or above the level of veracity, i. e. it will create a surface model of a forest canopy down to the last little leaf, in the absence of that level of detail in the LiDAR dataset itself.  That said, the output data do (also) have a high level of veracity.
+This is a project which puts verisimilitude at or above the level of veracity, i. e. it will create a surface model of a forest canopy down to the last little leaf, in the absence of that level of detail in the LiDAR dataset itself.
+
+![detailed](https://raw.github.com/smathermather/tree-interpolator/master/Licking_zoom.png)
+
+That said, the output data do (also) have a high level of veracity.
 
 This output is accomplished by using (effectively) a 3D tree "stamp" which is placed at each and every LiDAR point, and scaled to the height above groun of that point.  See https://smathermather.wordpress.com/tag/lidar/ for more info.
 
