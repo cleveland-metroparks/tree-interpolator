@@ -46,3 +46,5 @@ e.g.
 **Outputs**
 
 The primary outputs from this script are, as mentioned in functionality, are a PNG and a world file that georeferences that PNG.  The data are scaled between 0 and 63575, and the code assumes the tallest trees are 175 feet tall.  While this is a reasonable assumption for Ohio, it may not be reasonable for e.g. California.
+
+![example](https://raw.github.com/smathermather/tree-interpolator/master/Licking_stretched.png)
